@@ -1,7 +1,7 @@
 /*  Arduino Uno, ELEGOO UNO R3 2.8 Inches TFT Touch Screen, BMP280 Pressure sensor, Add libraries if needed by 
     going to Sketch / Include Library / Manage Library / then add library stated in the lines. I had to add in
     another } at the very end of this code for some reason,,, also, it won't return from the Baro set keypad, 
-    unless you enter something other than 29.92. Also, again for some reason, the keypad touch points are wrong,
+    unless you enter something other than the current value. Also, again for some reason, the keypad touch points are wrong,
     To enter the Baro setting, you need to push on the opposite side of the screen. To enter 29.90, you type 27.70
     And to CLEAR, you have to press "0" , its all backwards. should be easy to fix.
 
