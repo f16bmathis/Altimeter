@@ -1,5 +1,7 @@
 /*  Arduino Uno, ELEGOO UNO R3 2.8 Inches TFT Touch Screen, BMP280 Pressure sensor, Add libraries if needed by 
-    going to Sketch / Include Library / Manage Library / then add library stated in the lines.
+    going to Sketch / Include Library / Manage Library / then add library stated in the lines. I had to add in
+    another } at the very end of this code for some reason,,, also, it seems to not return from the Baro set keypad, 
+    So it did work, but now isn't, more work to be done...
 
 *  Arduino display of Altitude, Temp, and Kollsman setting
 
@@ -798,3 +800,4 @@ void loop(void)
           } while ( 1 );
 
      }
+        }
