@@ -265,7 +265,7 @@ void drawDisplay(float B)
 
     tft.setTextColor(GREEN,BLACK);  tft.setTextSize(2);
 
-    tft.setCursor(13,12); tft.println("BRIAN MATHIS"); tft.setTextSize(1);
+    tft.setCursor(13,12); tft.println("ALTIMETER"); tft.setTextSize(1);
 
 //    tft.setCursor(0, 270); tft.println(" FEET");
 
